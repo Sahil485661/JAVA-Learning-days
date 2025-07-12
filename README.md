@@ -84,9 +84,7 @@ Created with curiosity by Sahil
 📍 Location: Satna, Madhya Pradesh, India  
 💬 Connect via [GitHub Profile](https://github.com/Sahil485661)
 
----
-
-Feel free to customize this README further with your learning milestones, timeline, or even links to helpful resources. Want me to add Hindi-friendly explanations or diagrams next? I’ve got you covered 😄  
+  
 ``` 
 
 Would you like me to help fill out specific topic folders with examples too?
