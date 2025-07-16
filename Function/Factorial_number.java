@@ -1,6 +1,7 @@
 package Function;
 import java.util.*;
 public class Factorial_number {
+    //Fatorial name Function
     public static int factorial(int n){
         if(n <= 0){
             System.out.println("This number can't give the factorial Number ");
@@ -12,6 +13,7 @@ public class Factorial_number {
         }
        return fact;
     }
+    //here start main function
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
