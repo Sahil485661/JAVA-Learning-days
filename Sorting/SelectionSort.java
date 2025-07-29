@@ -14,9 +14,9 @@ public class SelectionSort {
                 small = j;
             }
         }
-        int temp = array[small];
-        array[small] = array[i];
-        array[i] = temp;
+        int temp = array[i];
+        array[i] = array[small];
+        array[small] = temp;
     }
     for(int i = 0; i< array.length;i++){
         System.out.print(array[i] +" ");
