@@ -12,7 +12,7 @@ public class fibonacciRecursion {
     public static void main(){
         int a = 0;
         int b = 1;
-        int n = 10000;
+        int n = 10;
         System.out.println(a);
         System.out.println(b);
         fibonacci(a,b,n-2);
