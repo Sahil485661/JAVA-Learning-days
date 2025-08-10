@@ -9,7 +9,7 @@ public class FindOccurence{
             System.out.println(last);
             return;
         }
-        char crrchar = str.charAt(index);
+        char crrchar = str.charAt(index);       //It's extracting a single character from the string str at the position specified by index. and then assign it to crrchar. 
         if(crrchar ==  element){
             if(first == -1){
                 first = index;
