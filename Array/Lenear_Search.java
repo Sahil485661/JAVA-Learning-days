@@ -16,7 +16,7 @@ public class Lenear_Search {
             continue;
         }
     }
-    if (check = true ){
+    if (check == true ){
         System.out.println("Your Targeted value is not found.");
     }
 }
