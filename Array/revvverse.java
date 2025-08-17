@@ -22,3 +22,5 @@ public class revvverse {
         }
     }
 }
+// Timecomplexity : O(n)
+// Space Complexity : O(1)
