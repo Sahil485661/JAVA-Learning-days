@@ -23,7 +23,8 @@ public class Spiral_array {
                 System.out.print(arr[endrow][i] +" ");
             }
             // left
-            if(startcol < endcol){
+            if(startcol < endcol){          //here this if is handle the situation when
+                // you have arr[n number row][0] that means only one column
             for(int i = endrow-1; i>=startrow+1; i--){
         
                 System.out.print(arr[i][startcol] +" ");
