@@ -6,7 +6,8 @@ public class CompareTo {
     public static void main(String args []){
         String FirstName = "Sahil";
         String LastName = "Vishw";
-        if(FirstName.compareTo(LastName)==0){
+        // if(FirstName.compareTo(LastName)==0){
+            if(FirstName.equals(LastName)){
             System.out.println("They are similar");
         }
         else{
