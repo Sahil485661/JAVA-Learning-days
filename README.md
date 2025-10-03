@@ -44,6 +44,7 @@ Some standalone Java files include:
 2. Open any .java file in your favorite IDE (VS Code, IntelliJ, etc.)
 
 3. Compile and run using:
+    ```Bash
    javac FileName.java
    java FileName
 
@@ -52,11 +53,11 @@ Some standalone Java files include:
 ## 🌱 Why This Repo?
 I'm building strong intuition for Java fundamentals—arrays, recursion, sorting, and control flow—while practicing clean code and dry runs. This repo helps me:
 
-Track progress
+1. Track progress
 
-Debug and refine logic
+2. Debug and refine logic
 
-Prepare for interviews and coding platforms
+3. Prepare for interviews and coding platforms
 
 ## 🙌 Contributions
 This is a personal learning space, but if you spot improvements or want to share alternate approaches, feel free to fork and suggest!
