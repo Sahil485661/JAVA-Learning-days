@@ -25,12 +25,12 @@ public class Trape_RainWater {
             // Now we calculate the trapped water in the bars
             // using this formula : Trapped_water = water_level - height[i];
             int traped_water = water_Level - height[i];
-            total_traped_water = traped_water+ total_traped_water;
+            total_traped_water = traped_water + total_traped_water;
         }
         System.out.println("Total Trapped Water in the Bars Are: " +total_traped_water);
     }
     public static void main(String args[]){
-        int height[] = {4,2,0,6,3,2,5};
+        int height[] = {1,8,6,2,5,4,8,3,7};
         rain(height);
     }
 }
