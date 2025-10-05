@@ -18,7 +18,7 @@ public class Fast_Exponentition {
     }
     public static void main(String[] args) {
         long a = 5;
-        long n = 3;
+        long n = 13;
         System.out.println("a^n is: " +Fast_Expo(a, n));
     }
 }
