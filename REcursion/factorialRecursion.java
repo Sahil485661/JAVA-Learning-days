@@ -1,16 +1,17 @@
 package REcursion;
 
 public class factorialRecursion {
-    public static int factorial(int n){
-        if(n == 1 || n == 0){
+    public static int fact(int a ){
+        if(a == 0){
             return 1;
         }
-        int recursion = factorial(n-1);
-        return n * recursion;
+        int factm1 = fact(a-1); //factmn (factorial a minus 1)
+        int facta = a * factm1; // factn (factorial of a)
+        return facta;
     }
-    public static void main(String args []){
+        public static void main(String args []){
         int n = 5;
-        int result = factorial(n);
+        int result = fact(n);
         System.out.println(result);
     }
 }
