@@ -2,14 +2,17 @@ package REcursion;
 
 public class numberPrint {
     public static void number(int n ){
-        if(6==n){
+        if(n==0){
             return;
         }
-        System.out.println(n);
-        number(n+1);
+        number(n-1);
+        if (n!= 0) {
+           System.out.println(n); 
+        }
+        
     }
     public static void main(String args[]){
-        int a = 1;
+        int a = 20783;
         number(a);
     }
 }
