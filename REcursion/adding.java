@@ -6,6 +6,6 @@ public class adding {
         Character a = 'z';
         
         System.out.println((int) a);
-        System.out.println('z' -'a');
+        System.out.println('p' -'a');
     }
 }
